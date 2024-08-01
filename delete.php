@@ -5,6 +5,6 @@ require_once('config.php');
     $query = "DELETE FROM `store`.`contacts` 
 	WHERE	`id` = '$id' ;";
 $result = mysqli_query($conn,$query);
-header("Location: select.php");
+header("Location: select2.php");
 }
 ?>
